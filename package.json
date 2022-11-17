@@ -1,0 +1,32 @@
+{
+  "name": "vite-playground",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gsap": "^3.11.3",
+    "three": "^0.146.0",
+    "vue": "^3.2.41",
+    "vue-router": "^4.1.6"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/prettier",
+      "@vue/prettier/@typescript-eslint"
+    ],
+    "rules": {
+      "vue/no-multiple-template-root": "off"
+    }
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "vite": "^3.2.3"
+  }
+}
