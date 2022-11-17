@@ -7,9 +7,11 @@
     <ul class="nav-links">
       <!-- NAVIGATION MENUS -->
       <div class="menu">
-        <router-link class="nav-link" to="/">Home</router-link>
-        <router-link class="nav-link" to="/about">About</router-link>
-        <router-link class="nav-link" to="/threejs-scroll">Scroll</router-link>
+        <router-link class="nav-link" to="/playground/">Home</router-link>
+        <router-link class="nav-link" to="/playground/about">About</router-link>
+        <router-link class="nav-link" to="/playground/scroll"
+          >Scroll</router-link
+        >
       </div>
     </ul>
   </nav>
